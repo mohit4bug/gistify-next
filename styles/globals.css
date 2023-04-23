@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-[#0d1117];
+}
+
+.more-dark-blue {
+    @apply bg-[#040507];
+}
+
+.less-dark-blue {
+    @apply bg-[#161b22];
+}
+
+.green {
+    @apply bg-[#238636];
+}
