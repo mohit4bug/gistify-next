@@ -24,8 +24,7 @@ export default function Home() {
         setGists(resNext.data.gists)
       }
       catch (error) {
-        console.log(error)
-        // router.push('/login')
+        router.push('/login')
       }
 
     }
